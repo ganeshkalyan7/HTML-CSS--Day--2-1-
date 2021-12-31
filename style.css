@@ -1,0 +1,78 @@
+.container{
+    display: grid;
+    grid-gap : 10px;
+    border: 1px solid  slategray;
+    background-color: slategray;
+    margin: 20px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+   
+    grid-template-columns: repeat(12,1fr);
+    grid-auto-rows: 100px;
+    
+    
+ }
+ .same{
+     background-color:black;
+     text-align: center;
+     height: 50px;
+     border-radius: 10px;
+     grid-gap: 40px;
+     font-size: 20px;
+ }
+ #first{
+     grid-column: 1/-1;
+     height: 70px;
+     margin-top: 0px;
+     text-align:center;
+     color:wheat;
+    
+ }
+ #secound{
+     grid-column: 4/-1;
+     text-align: left;
+     margin-left: 50px;
+     color:wheat;
+    
+ }
+  #seventh{
+     grid-column:4/-1;
+     margin-top: 40px;
+     height: 100px;
+     margin-left: 50px;
+   
+ }
+ #fourth{
+     grid-column:4/7;
+     height: 120px;
+   
+ }
+ #fiveth{
+     grid-column:7/10;
+     height: 120px;
+     margin-left: 50px;
+    
+ }
+ #sixth{
+    
+     grid-column:10/-1;
+
+     height: 120px;
+     margin-left: 50px;
+
+    
+ }
+ #third{
+  grid-row: 2/4;
+  height: 360px;
+  grid-column: 1/3;
+
+ }
+ #git{
+     border-radius: 60px;
+ }
+
+    
+
+    
+   
